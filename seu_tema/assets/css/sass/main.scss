@@ -1,0 +1,49 @@
+
+$num: 100;
+
+@while $num > 1 {
+
+	/* ========= Margins #{$num} ========= */
+    .margin-top-#{$num} {
+        margin-top: #{$num}px;
+    }
+
+    .margin-bottom-#{$num} {
+        margin-bottom: #{$num}px;
+    }
+
+    .margin-left-#{$num} {
+        margin-left: #{$num}px;
+    }
+
+    .margin-right-#{$num} {
+        margin-right: #{$num}px;
+    }
+
+    .margin-#{$num} {
+        margin: #{$num}px;
+    }
+
+	/* ========= Paddings #{$num}    ========= */
+    .padding-top-#{$num} {
+        padding-top: #{$num}px;
+    }
+
+    .padding-bottom-#{$num} {
+        padding-bottom: #{$num}px;
+    }
+
+    .padding-left-#{$num} {
+        padding-left: #{$num}px;
+    }
+
+    .padding-right-#{$num} {
+        padding-right: #{$num}px;
+    }
+
+    .padding-#{$num} {
+        padding: #{$num}px;
+    }
+
+    $num: $num - 5;
+}

@@ -1,0 +1,57 @@
+/* Tamanho das Telas */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center; }
+
+.marketing h2 {
+  font-weight: 400; }
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem; }
+
+.featurette-divider {
+  margin: 5rem 0; }
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem; }
+
+/*  CAMPOS FORMULARIO */
+/* SLIDER */
+.carousel {
+  margin-bottom: 4rem; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10; }
+
+.carousel-item {
+  height: 32rem;
+  overflow: hidden; }
+  @media only screen and (max-width: 767px) {
+    .carousel-item {
+      height: 14rem !important; } }
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.carrousel-slick {
+  height: 32rem;
+  overflow: hidden; }
+  @media only screen and (max-width: 767px) {
+    .carrousel-slick {
+      height: 14rem !important; } }
+
+.mega-menu-link {
+  background: #f8f9fa !important;
+  color: #000 !important; }
+
+.hamburger {
+  outline: 0 !important; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+/*@media only screen and (min-width: 768px) {
+
+}*/
+@media only screen and (max-width: 767px) {/* 1 tela */
+	.carousel-item {
+		height: 17rem !important;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width:1198px ){/* 2 tela  */
+
+}
+@media only screen and (max-width: 991px) { /* 3 tela  */
+
+}
+@media only screen and (max-width: 767px) { /* 4 tela  */
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
